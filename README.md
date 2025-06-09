@@ -1,13 +1,17 @@
-🗺️ Visualisation des Villes Françaises et des Capitales Européennes avec Folium
-Ce projet Python affiche sur une carte interactive les villes françaises ainsi que les capitales des pays européens à partir de deux fichiers CSV. La carte est générée avec la bibliothèque Folium et sauvegardée au format HTML.
 
-🔧 Prérequis
+# 🗺️ Visualisation des Villes Françaises et des Capitales Européennes avec Folium
+
+Ce projet Python affiche sur une carte interactive les villes françaises ainsi que les capitales des pays européens à partir de deux fichiers CSV. La carte est générée avec la bibliothèque **Folium** et sauvegardée au format HTML.
+
+---
+
+## 🔧 Prérequis
+
 Assurez-vous d’avoir installé les bibliothèques nécessaires :
 
-bash
-Copier
-Modifier
+```bash
 pip install pandas folium
+
 📁 Structure du projet
 bash
 Copier
@@ -19,6 +23,7 @@ Modifier
 │   └── Capitales.csv                # Données des capitales européennes
 ├── Carte_Villes_Et_Capitales.html  # Carte interactive générée (en sortie)
 └── README.md                       # Ce fichier
+
 📄 Format attendu des fichiers CSV
 Villes.csv
 ville	latitude	longitude	population
