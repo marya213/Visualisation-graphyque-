@@ -1,71 +1,51 @@
-- **pip install pandas folium**
+🗺️ Visualisation Géographique des Villes avec Folium,
+Ce projet Python permet d'afficher sur une carte interactive des villes de France ainsi que leur poupulation et des capitales d'Europe à l'aide de fichiers CSV, grâce à leurs coordonnées géographiques et leur population. 
 
----
+La carte est générée avec la bibliothèque Folium et sauvegardée au format HTML.
 
-- 📁 **Structure du projet**
+🔧 Prérequis,
+Assurez-vous d’avoir installé les bibliothèques nécessaires :
 
-.
-├── main.py # Script principal de visualisation
-├── Dataset/
-│ ├── Villes.csv # Données des villes françaises
-│ └── Capitales.csv # Données des capitales européennes
-├── Carte_Villes_Et_Capitales.html # Carte interactive générée (en sortie)
-└── README.md # Ce fichier
+Pandas,
+Folium,
 
-yaml
-Copier
-Modifier
+📁 Structure du projet,
+├── carte.ipynb
+├── Dataset/ \
+│   └── Villes.csv \
+|   └── Capitales.csv
+├── Carte_Europe.html
+└── README.md
 
----
+📄 Format attendu des fichiers .csv,
+Le fichier CSV doit contenir les colonnes suivantes :
 
-- 📄 **Format attendu des fichiers CSV**
+ville    latitude    longitude    population \
+Paris    48.8566    2.3522    2148327 \
+Lyon    45.7640    4.8357    513275 \
+Marseille    43.2965    5.3698    861635
 
-- *Villes.csv*
+🚀 Lancer le projet,
+Pour lancer le script, il faut exécuter le code grâce au bouton directement dans le notebook Python
 
-| ville     | latitude | longitude | population |
-|-----------|----------|-----------|------------|
-| Paris     | 48.8566  | 2.3522    | 2148327    |
-| Lyon      | 45.7640  | 4.8357    | 513275     |
-| Marseille | 43.2965  | 5.3698    | 861635     |
 
-- *Capitales.csv*
+🔍 Résultat,
+Ouvrez le fichier Carte_Europe.html dans votre navigateur pour explorer la carte interactive.
 
-| capitale  | pays      | latitude | longitude |
-|-----------|-----------|----------|-----------|
-| Paris     | France    | 48.8566  | 2.3522    |
-| Berlin    | Allemagne | 52.5200  | 13.4050   |
-| Rome      | Italie    | 41.9028  | 12.4964   |
+🧠 Technologies utilisées,
+Python,
+Pandas : pour le chargement et la manipulation des données,
+Folium : pour créer des cartes interactives basées sur Leaflet.js,
 
----
+Autrices,
+Marya Moubèche
 
-- 🚀 **Lancer le projet**
-
-- Exécutez le script Python :
-
-```bash
-python main.py
-Ce script va :
-
-Charger les données des villes françaises depuis ./Dataset/Villes.csv
-
-Charger les données des capitales depuis ./Dataset/Capitales.csv
-
-Créer une carte centrée sur l'Europe
-
-Ajouter des marqueurs rouges pour chaque ville française avec son nom et sa population
-
-Ajouter des marqueurs bleus pour chaque capitale avec son nom et son pays
-
-Sauvegarder la carte dans Carte_Villes_Et_Capitales.html
-
-🔍 Résultat
-
-Ouvrez le fichier Carte_Villes_Et_Capitales.html dans votre navigateur pour explorer la carte interactive.
-
-🧠 Technologies utilisées
-
-Python
-
-Pandas : pour le chargement et la manipulation des données
-
-Folium : pour créer des cartes interactives basées sur Leaflet.js
+Tyfenn Le Dévéhat 
+GitHub
+marya213 - Overview
+marya213 has 7 repositories available. Follow their code on GitHub.
+Image
+GitHub
+tyfld - Overview
+tyfld has 4 repositories available. Follow their code on GitHub.
+Image
