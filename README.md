@@ -38,7 +38,7 @@ Pandas : pour le chargement et la manipulation des données,
 Folium : pour créer des cartes interactives basées sur Leaflet.js,
 
 Autrices,
-Marya Moubèche
+Maria Bouchene
 
 Tyfenn Le Dévéhat 
 GitHub
