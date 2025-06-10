@@ -1,0 +1,94 @@
+🗂️ Cours : Manipulation de Données & Visualisation Géographique en Python 
+
+ 
+
+📌 Introduction 
+
+La visualisation géographique permet de représenter visuellement des données spatiales sur des cartes. Elle facilite l’analyse, la prise de décision et la communication de données en lien avec un espace géographique. 
+
+🌍 Ce qu'on peut faire avec la visualisation géographique 
+
+Afficher des cartes avec coordonnées GPS 
+ → Placer des points sur une carte à partir de latitude et longitude. 
+
+Carte thermique (heatmap) 
+ → Visualiser la densité de points (concentrations de population, pollution, crimes). 
+
+Affichage de points géographiques 
+ → Localiser des infrastructures (hôpitaux, écoles) à partir de données tabulaires. 
+
+Affichage de régions (polygones) 
+ → Colorer ou tracer des régions (pays, départements, quartiers) selon des critères. 
+
+Tracés d’itinéraires ou de flux 
+ → Visualiser des trajets (livraisons, déplacements, flux migratoires...). 
+
+Cartes interactives 
+ → Permettre à l’utilisateur d’interagir avec la carte (zoom, clics, infobulles...). 
+
+Cartes choroplèthes 
+ → Colorier des régions selon une valeur (ex : population, chômage, revenu moyen). 
+
+🧰 Bibliothèques utiles pour la visualisation géographique 
+
+🧪 Bibliothèques déjà vues en cours : 
+
+Pandas : manipulation de données tabulaires. 
+
+NumPy : calculs numériques. 
+
+Matplotlib / Seaborn : graphiques standards, utiles pour combiner avec cartes. 
+
+ 
+
+📊 Exemples d’usages concrets 
+
+Contexte : 
+
+Exemple 
+
+ 
+
+Santé publique 
+
+Visualiser la répartition des hôpitaux ou des cas de COVID. 
+
+Urbanisme 
+
+Planifier l’implantation de nouvelles infrastructures. 
+
+ 
+
+Marketing 
+
+Cibler des zones de forte demande client. 
+
+ 
+
+Logistique 
+
+Optimiser les trajets de livraison. 
+
+ Environnement  
+
+Cartographier les zones à risque (inondations, incendies). 
+
+ 
+
+ 
+
+ 
+
+ 
+
+✅ Compétences mobilisées 
+
+Chargement de données (CSV, GeoJSON, shapefiles). 
+
+Nettoyage et préparation avec Pandas. 
+
+Utilisation de Folium ou GeoPandas pour créer des cartes. 
+
+Intégration de données numériques et géographiques. 
+
+ 
